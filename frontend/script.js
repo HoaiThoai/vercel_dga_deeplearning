@@ -21,7 +21,7 @@ document
 
     try {
       // Call FastAPI Backend
-      const response = await fetch("http://localhost:8000/api/predict", {
+      const response = await fetch("https://hoaithoai-dga-detection-api.hf.space/api/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
