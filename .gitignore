@@ -12,9 +12,9 @@ env/
 
 # Deep Learning / Keras Data
 tuner_results/
-models/*.h5
-models/*.keras
-models/*.png
+# models/*.h5
+# models/*.keras
+# models/*.png
 
 # VS Code / IDEs
 .vscode/
